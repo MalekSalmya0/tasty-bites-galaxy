@@ -11,7 +11,7 @@ export function Header({ cartCount }: HeaderProps) {
     <header className="relative bg-gradient-to-r from-[#ee9ca7] to-[#ffdde1] p-4 shadow-md">
       <div className="container mx-auto flex items-center justify-between">
         <Link to="/" className="text-2xl font-bold text-white hover:text-opacity-80 transition-colors">
-          Haymour Fast Food
+          Malek Selmieh
         </Link>
         <Button variant="secondary" className="relative">
           <ShoppingCart className="h-5 w-5" />
